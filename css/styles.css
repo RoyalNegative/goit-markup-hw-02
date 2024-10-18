@@ -1,6 +1,7 @@
+/* General Rules */
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,10 +10,117 @@ ul{
     list-style-type: none;;
 }
 
+a{
+    text-decoration: none;;
+}
+
+/* navigation - hero section */
+.nav-items a{
+    color: #2E2F42;
+}
+
+header a{
+    color: #434455;
+    text-decoration: none;
+}
+
+header a:hover,
+header a:focus{
+    color: #404BBF;
+}
+
+.nav-items a:hover,
+.nav-items a.focus{
+    color: #404BBF;
+}
+
+.nav-items a:active{
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.hero{
+    background-color: #2E2F42;
+    color: white;
+    height: 600px;
+}
+
+.hero .hero-text{ 
+    width: 496px;
+    height: 120px;
+    font-size: 56px;
+}
+
+.hero .hero-button{
+    color: white;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: #4D5AE5;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus{
+    background-color: #404BBF;
+}
+
+/* About us section */
+.about-us ul li{
+    width: 264px;
+    height: 104px;
+}
+.about-us ul li h3{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.about-us ul li p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+/* Our Team section */
+.our-team{
+    background-color: #F4F4FD;
+
+}
+.our-team-header{
+    width: 162px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.our-team ul li{
+    width: 264px;
+    height: 380px;
+    box-shadow: 0px 1px 1px rgba(46, 47, 66, 0.08);
+    text-align: center;
+}
+
+
+/* Our Portfolio section */ 
+
+/* Footer section */
 .portfolio-card-text{
     padding: 32px 16px;
 }
 
 .portfolio-header{
     font-size: 36px;
+}
+
+.footer{
+    background-color: #2E2F42;
+    color: white;
+}
+
+.footer p{
+    font-size: 16px;
+    line-height: 24px;
+    width: 264px;
+    height: 72px;
 }

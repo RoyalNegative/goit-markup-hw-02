@@ -13,18 +13,24 @@ a {
     text-decoration: none;
 }
 
-.logo{
-    font-family: 'Railway', sans-serif; 
+
+/* navigation - hero section */
+.logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.003em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-/* navigation - hero section */
-.nav-items a {
-    color: #2E2F42;
+
+span {
+    color: #2e2f42;
+}
+
+.nav-item{
+    color: #2e2f42
 }
 
 header a {
@@ -37,16 +43,15 @@ header a:focus {
     color: #404BBF;
 }
 
-.nav-items a:hover,
-.nav-items a:focus {
-    color: #404BBF;
+
+.contact{
+    font-style: normal;
 }
 
-.nav-items a:active {
-    color: #404BBF;
-    text-decoration: underline;
+.contact-item{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-
 .hero {
     background-color: #2E2F42;
     color: white;
@@ -55,6 +60,9 @@ header a:focus {
 
 .hero .hero-text {
     font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero .hero-button {
@@ -62,24 +70,32 @@ header a:focus {
     background-color: #4D5AE5;
     border: none;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .hero .hero-button:hover,
 .hero .hero-button:focus {
     background-color: #404BBF;
+    cursor: pointer;
 }
 
 /* About us section */
-.about-us ul li h3 {
-    font-size: 24px;
-    line-height: 24px;
+.item-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-
-.about-us ul li p {
+.item-text{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
+
+
 
 /* Our Team section */
 .our-team {

@@ -1,126 +1,118 @@
 /* General Rules */
-body{
+body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    color: #434455;
 }
 
-ul{
-    list-style-type: none;;
+ul {
+    list-style-type: none;
 }
 
-a{
-    text-decoration: none;;
+a {
+    text-decoration: none;
 }
 
+.logo{
+    font-family: 'Railway', sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.003em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 /* navigation - hero section */
-.nav-items a{
+.nav-items a {
     color: #2E2F42;
 }
 
-header a{
+header a {
     color: #434455;
     text-decoration: none;
 }
 
 header a:hover,
-header a:focus{
+header a:focus {
     color: #404BBF;
 }
 
 .nav-items a:hover,
-.nav-items a.focus{
+.nav-items a:focus {
     color: #404BBF;
 }
 
-.nav-items a:active{
+.nav-items a:active {
     color: #404BBF;
     text-decoration: underline;
 }
 
-.hero{
+.hero {
     background-color: #2E2F42;
     color: white;
     height: 600px;
 }
 
-.hero .hero-text{ 
-    width: 496px;
-    height: 120px;
+.hero .hero-text {
     font-size: 56px;
 }
 
-.hero .hero-button{
+.hero .hero-button {
     color: white;
-    border-radius: 4px;
-    padding: 16px 32px;
     background-color: #4D5AE5;
-    box-shadow: none;
     border: none;
     font-size: 16px;
 }
 
 .hero .hero-button:hover,
-.hero .hero-button:focus{
+.hero .hero-button:focus {
     background-color: #404BBF;
 }
 
 /* About us section */
-.about-us ul li{
-    width: 264px;
-    height: 104px;
-}
-.about-us ul li h3{
+.about-us ul li h3 {
     font-size: 24px;
     line-height: 24px;
 }
 
-.about-us ul li p{
+.about-us ul li p {
     font-size: 16px;
     line-height: 24px;
     color: #434455;
 }
 
 /* Our Team section */
-.our-team{
+.our-team {
     background-color: #F4F4FD;
-
 }
-.our-team-header{
-    width: 162px;
-    height: 40px;
+
+.our-team-header {
     font-size: 36px;
     line-height: 40px;
 }
 
-.our-team ul li{
-    width: 264px;
-    height: 380px;
-    box-shadow: 0px 1px 1px rgba(46, 47, 66, 0.08);
+.our-team ul li {
     text-align: center;
 }
 
-
-/* Our Portfolio section */ 
-
+/* Our Portfolio section */
 /* Footer section */
-.portfolio-card-text{
+.portfolio-card-text {
     padding: 32px 16px;
 }
 
-.portfolio-header{
+.portfolio-header {
     font-size: 36px;
 }
 
-.footer{
+.footer {
     background-color: #2E2F42;
     color: white;
 }
 
-.footer p{
+.footer p {
     font-size: 16px;
     line-height: 24px;
-    width: 264px;
-    height: 72px;
 }
